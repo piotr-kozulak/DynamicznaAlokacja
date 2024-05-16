@@ -3,4 +3,6 @@ project(Alokacja)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Alokacja main.cpp)
+add_executable(Alokacja main.cpp
+        array.cpp
+        array.h)
