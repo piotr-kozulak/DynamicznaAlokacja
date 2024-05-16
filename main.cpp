@@ -37,15 +37,15 @@ int main() {
 
             case 4 :
                 max = findMaximumValue(array,SIZE);
-                printf("maxmium value = %d\n",max);
+                printf("maximium value = %d\n",max);
                 break;
             case 5 :
                 min = findMiniumValue(array,SIZE);
-                printf("minium value = %d\n",min);
+                printf("minimum value = %d\n",min);
                 break;
             case 6:
                 avg= calculateAverage(array,SIZE);
-                printf("Average valute = %f\n", avg);
+                printf("Average value = %f\n", avg);
             case 7 :
                 fileenter(array,SIZE);
                 puts("Array written");
