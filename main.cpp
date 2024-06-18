@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include "array.h"
 void menu() {
-    printf("1- intput Values\n");
+    printf("1- Intput Values\n");
     printf("2- Delete Values\n");
     printf("3- Print Array\n");
     printf("4- Find Maximum Value\n");
-    printf("5- Find MinimumValue\n");
+    printf("5- Find Minium Value\n");
     printf("6- Calculate Average\n");
-    printf("7- Enter to file\n");
-    printf("8- Read  file\n");
+    printf("7- Enter to fail\n");
+    printf("8- Read  fail\n");
     printf("9- Stop Program\n");
 }
 
@@ -37,15 +37,15 @@ int main() {
 
             case 4 :
                 max = findMaximumValue(array,SIZE);
-                printf("maximium value = %d\n",max);
+                printf("maxmium value = %d\n",max);
                 break;
             case 5 :
                 min = findMiniumValue(array,SIZE);
-                printf("minimum value = %d\n",min);
+                printf("minium value = %d\n",min);
                 break;
             case 6:
                 avg= calculateAverage(array,SIZE);
-                printf("Average value = %f\n", avg);
+                printf("Average valute = %f\n", avg);
             case 7 :
                 fileenter(array,SIZE);
                 puts("Array written");
